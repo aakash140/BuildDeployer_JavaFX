@@ -1,0 +1,711 @@
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 09:59:17 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 09:59:17 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:18 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:20 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 09:59:30 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:31 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 09:59:31 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:31 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 09:59:32 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 09:59:32 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 09:59:35 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 09:59:35 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 09:59:35 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 09:59:35 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 09:59:35 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:00:15 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:00:15 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:00:15 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:00:18 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:04:22 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:04:22 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:23 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:24 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:04:27 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:28 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:04:28 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:28 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:04:29 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:29 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:31 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:04:31 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:31 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:04:31 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:04:31 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:32 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:32 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:32 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:04:35 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:05:41 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:05:41 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:42 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:05:43 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:06:02 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:06:03 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:06:03 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:06:03 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:06:03 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:06:03 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:29:14 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:29:14 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:14 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:16 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:29:24 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:25 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:29:25 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:25 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:29:25 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:25 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:31 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:29:31 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:31 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:29:31 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:29:31 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:35 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:35 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:29:36 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:30:16 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:30:33 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:32:43 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:32:43 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:44 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:32:47 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:48 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:32:48 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:48 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:32:49 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:32:49 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:32:49 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:32:49 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:32:49 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:33:22 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:33:22 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:23 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:33:25 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:27 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:33:27 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:27 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:27 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:27 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:27 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:27 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:27 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:33:34 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:33:34 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:35 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:33:37 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:39 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:33:39 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:39 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:33:40 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:40 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:40 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:33:40 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:33:40 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:34:53 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:34:53 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:54 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:34:57 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:58 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:34:58 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:58 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:59 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:34:59 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:34:59 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:34:59 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:34:59 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:34:59 – Popping product\shared\pos\config\application.properties from FileQueue
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:34:59 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:56:14 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:56:14 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:14 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:15 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:56:44 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:46 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:56:46 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:56:46 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:03 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:03 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:03 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:04 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:06 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:07 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:07 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:07 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:08 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:08 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:08 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:08 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:08 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:29 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:29 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:30 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:32 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:33 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:33 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:33 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:34 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:34 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:34 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:34 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:34 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:42 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 10:57:42 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:43 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:45 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:47 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:48 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 10:57:48 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:48 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 10:57:49 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:49 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:54 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:54 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:54 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:54 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 10:57:54 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:57 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:57 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:57 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:58 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 10:57:59 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:38 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:38 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:38 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:43 – Initiating Build Update Process: BuildUpdateWorker.updateBuild()
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:43 – Initiating the process for fetching latest build: BuildUpdateWorker.getLatestBuild()
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:43 – FTP directory: C:/Users/aakash2.gupta/Desktop/product
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:09:43 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:09:43 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:09:43 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:09:43 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:43 – Downloading build from C:\Users\aakash2.gupta\Desktop\product to .\update\temp\product
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Build downloaded at .\update\temp\product
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Pusing .\update\temp\product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:09:44 – Pushing .\update\temp\product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Pusing .\update\temp\product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:09:44 – Pushing .\update\temp\product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Creating a backup for old build at .\build_backups\20160413110944424\product
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Cleaning up files in  .\product
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Deleted file .\product\shared\common\lib\lsipl.stores.domain.jar during file cleanup process.
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Deleted file .\product\shared\pos\config\application.properties during file cleanup process.
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Initiating build installation process: BuildUpdateWorker.installNewBuild()	
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:09:44 – Popping .\update\temp\product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Copying .\update\temp\product\shared\common\lib\lsipl.stores.domain.jar product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:09:44 – Popping .\update\temp\product\shared\pos\config\application.properties from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:44 – Copying .\update\temp\product\shared\pos\config\application.properties product\shared\pos\config\application.properties
+[Thread-4] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:09:45 – Updating build update report.
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:09:45 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:10:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:10:02 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:10:02 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:10:02 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:10:03 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:10:03 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:10:03 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:10:03 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-5] ERROR lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – java.io.FileNotFoundException: C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar (Access is denied)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:10:03 – Displaying Error alert :ApplicationUI.displayErrorAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:14:52 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:14:52 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:14:53 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:00 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:00 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:01 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:01 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:05 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:05 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:05 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:06 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:06 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:06 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:06 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:06 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:06 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:06 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:06 – Popping product\shared\pos\config\application.properties from FileQueue
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:06 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:13 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:13 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:14 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:16 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:16 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:16 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:21 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:21 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:21 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:22 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Initiating client build deployment.: DeploymentWorker.deployClientBuild()
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:22 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:22 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Updating StoreId and RegisterId in application.properties.
+[Thread-4] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:15:22 – FileName set to application.properties
+[Thread-4] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:15:22 – Base path set to C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config
+[Thread-4] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:15:22 – ConfigurationUtils.locate(): base is C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config, name is application.properties
+[Thread-4] DEBUG org.apache.commons.configuration.DefaultFileSystem 13/04/2016 11:15:22 – Could not locate file application.properties at C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config: unknown protocol: c
+[Thread-4] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:15:22 – Loading configuration from the path C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config\application.properties
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Updated StoreId: 07302 and RegisterId: 103 in application.properties.
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:22 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:22 – Popping product\shared\pos\config\application.properties from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Getting customized absolute path for product\shared\pos\config\application.properties
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – New Absolute path is: \pos\config\application.properties
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:22 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\pos\config\application.properties :DeploymentWorker.deploy()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:22 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:27 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:27 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:27 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:27 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:28 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:30 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:34 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:39 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:39 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:39 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:15:39 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:39 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:39 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:39 – Initiating complete build deployment.: DeploymentWorker.deployCompleteBuild()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:39 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:39 – Initiating client build deployment.: DeploymentWorker.deployClientBuild()
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Updating StoreId and RegisterId in application.properties.
+[Thread-5] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:15:40 – FileName set to application.properties
+[Thread-5] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:15:40 – Base path set to C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-5] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:15:40 – ConfigurationUtils.locate(): base is C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config, name is application.properties
+[Thread-5] DEBUG org.apache.commons.configuration.DefaultFileSystem 13/04/2016 11:15:40 – Could not locate file application.properties at C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config: unknown protocol: c
+[Thread-5] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:15:40 – Loading configuration from the path C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config\application.properties
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Popping product\shared\pos\config\application.properties from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Updated StoreId: 07302 and RegisterId: 103 in application.properties.
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:15:40 – Popping product\shared\pos\config\application.properties from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Getting customized absolute path for product\shared\pos\config\application.properties
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – New Absolute path is: \pos\config\application.properties
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:15:40 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\pos\config\application.properties :DeploymentWorker.deploy()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:40 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:46 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:15:46 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:15:47 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:00 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:01 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:16:06 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:06 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:06 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:16:06 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:16:06 – Displaying Confirmation alert :ApplicationUI.displayInformationAlert(String headerText)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:16:07 – Disabling all the fields and buttons:ApplicationUI.disableAllNodes()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Initiating complete build deployment.: DeploymentWorker.deployCompleteBuild()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Initiating server build deployment.: DeploymentWorker.deployServerBuild()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Initiating client build deployment.: DeploymentWorker.deployClientBuild()
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Pusing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Pushing product\shared\common\lib\lsipl.stores.domain.jar in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Pusing product\shared\pos\config\application.properties in FileQueue
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Pushing product\shared\pos\config\application.properties in FileQueue
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Updating StoreId and RegisterId in application.properties.
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-4] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Server\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-4] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Popping product\shared\pos\config\application.properties from FileQueue
+[Thread-5] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:16:07 – FileName set to application.properties
+[Thread-5] DEBUG org.apache.commons.configuration.PropertiesConfiguration 13/04/2016 11:16:07 – Base path set to C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config
+[Thread-5] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:16:07 – ConfigurationUtils.locate(): base is C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config, name is application.properties
+[Thread-5] DEBUG org.apache.commons.configuration.DefaultFileSystem 13/04/2016 11:16:07 – Could not locate file application.properties at C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config: unknown protocol: c
+[Thread-5] DEBUG org.apache.commons.configuration.ConfigurationUtils 13/04/2016 11:16:07 – Loading configuration from the path C:\Aakash\study\Eclipse_Mars_WorkSpace\BuildDeployer_JavaFX\product\shared\pos\config\application.properties
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Updated StoreId: 07302 and RegisterId: 103 in application.properties.
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Popping product\shared\common\lib\lsipl.stores.domain.jar from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Getting customized absolute path for product\shared\common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – New Absolute path is: \common\lib\lsipl.stores.domain.jar
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\common\lib\lsipl.stores.domain.jar :DeploymentWorker.deploy()
+[Thread-5] INFO  lsipl.retail.stores.javafx.util.FileQueue 13/04/2016 11:16:07 – Popping product\shared\pos\config\application.properties from FileQueue
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Getting customized absolute path for product\shared\pos\config\application.properties
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – New Absolute path is: \pos\config\application.properties
+[Thread-5] INFO  lsipl.retail.stores.worker.DeploymentWorker 13/04/2016 11:16:07 – Deploying build at C:\Aakash\Work\Lifestyle_14.1\OracleRetailStore_Test\Client\pos\config\application.properties :DeploymentWorker.deploy()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:16:07 – Displaying Information alert :ApplicationUI.displayInformationAlert(String headerText)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:17:14 – Beginning application in BuildDeploymentApp.main(String... args)
+[main] INFO  lsipl.retail.stores.javafx.app.BuildDeploymentApp 13/04/2016 11:17:14 – Launching application in BuildDeploymentApp.launchApplication(String... args)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – ApplicationUI.start()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring menus: ApplicationUI.configureMenus(Scene scene, Stage stage)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image open.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image exit.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image update.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image helpguide.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image about.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring labels: ApplicationUI.configureLabels()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring text fields: ApplicationUI.configureTextFields()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring combo box: ApplicationUI.configureComboBox()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring buttons: ApplicationUI.configureButtons()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image Deploy.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image Reset.png from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring shadow: ApplicationUI.configureShadow()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Configuring progress bar: ApplicationUI.configureProgressBar()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Painting Grid Pane: ApplicationUI.paintGridPane(GridPane grid)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image header.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:17:14 – Fetching image footer.jpg from localdisk
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:17:23 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:52 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:52 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:52 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:18:53 – Validating data and selection before build deployment: ApplicationUI.isVaildDeployment()
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:53 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:53 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.util.DeploymentUtil 13/04/2016 11:18:53 – Validating directory existense: DeploymentUtil.isValidDirectory(String directory)
+[JavaFX Application Thread] INFO  lsipl.retail.stores.javafx.ui.ApplicationUI 13/04/2016 11:18:53 – Displaying Invalid data alert :ApplicationUI.displayInvalidDataAlert(String headerText)
